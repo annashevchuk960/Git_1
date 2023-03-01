@@ -1,12 +1,11 @@
-#include <iostream> 
+ï»¿#include <iostream> 
 using namespace std;
 
 int main()
 {
 	system("chcp 1251");
 	system("cls");
-	cout << " Ïðîäàì öóöåíÿò.\n Ïîðîäà-ðîòâåéëåð.\n Òåë:222-222-222 \n |222||222||222| \n |222||222||222| \n |222||222||222| "  << endl;
-	// Bjarne Stroustrup 
+	cout << " ÐŸÑ€Ð¾Ð´Ð°Ð¼ Ñ†ÑƒÑ†ÐµÐ½ÑÑ‚.\n ÐŸÐ¾Ñ€Ð¾Ð´Ð°-Ñ€Ð¾Ñ‚Ð²ÐµÐ¹Ð»ÐµÑ€.\n Ð¢ÐµÐ»:222-222-222 \n |222||222||222| \n |222||222||222| "  << endl;
 
 	return 0;
 
