@@ -10,9 +10,12 @@ int main() {
     std::cout << "Input b: ";
     int b;
     std::cin >> b;
-    summ = 0
-
+        int summ = 0;
     while (a <= b) std::cout << a++ << ' ';
     std::cout << std::endl;
+    {
+        summ =+ a;
+    }
+    cout << "Sum = " << summ << "\n\n";
     return 0;
 }
