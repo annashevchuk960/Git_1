@@ -3,19 +3,18 @@
 
 using namespace std;
 int main() {
-    std::cout << "Input a: ";
+    std::cout << "Input first: ";
     int a;
     std::cin >> a;
 
-    std::cout << "Input b: ";
+    std::cout << "Input second: ";
     int b;
     std::cin >> b;
         int summ = 0;
-    while (a <= b) std::cout << a++ << ' ';
-    std::cout << std::endl;
-    {
-        summ =+ a;
-    }
+        for (int i = a ; i <= b; i++)
+        {
+            summ = summ + i;
+        }
     cout << "Sum = " << summ << "\n\n";
     return 0;
 }
