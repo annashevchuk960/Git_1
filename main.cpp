@@ -1,20 +1,21 @@
 #include <iostream>
 #include <ctime>
 using namespace std;
-void rectangle(int name);
-double Sum(double x, double y);
+void rectangle(int hight;int width);
 int main()
 {
-    int hight = ;
+    int hight = 5;
     rectangle(hight);
     cout << Sum(3, 4) << endl;
     return 0;
 }
-void rectangle(int hight)
+void rectangle()
 {
-    cout << "Hello, " << rectangle << "!" << endl;
+    for (size_t i = 0; i < hight; i++)
+    {
+
+    }
 }
-double Sum(double x, double y)
 {
     return x + y;
 }
