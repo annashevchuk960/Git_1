@@ -1,27 +1,26 @@
 #include <iostream>
 using namespace std;
 
-int max_number(int a, int b);
+int number(int num);
 
 int main()
 {
-    int a, b;
+    int num;
     cout << "Number a: ";
-    cin >> a;
-    cout << "Number b: ";
-    cin >> b;
-    int max_num = max_number(a, b);
-    cout << "The maximum number is: " << max_num << endl;
+    cin >> num;
+    int result = number(num);
+    cout << "Number " << num << " is " << (result ? "true" : "false") << endl;
     return 0;
 }
 
-int max_number(int a, int b)
+int number(int num)
 {
-    int result;
-    if (a > b)
-        result = a;
-    else
-        result = b;
-
-    return result;
+    if (num > 0) 
+    {
+        return true;
+    }
+    else 
+    {
+        return false;
+    }
 }
