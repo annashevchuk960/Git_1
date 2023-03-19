@@ -1,21 +1,25 @@
 #include <iostream>
 #include <ctime>
+
 using namespace std;
-void rectangle(int hight;int width);
-int main()
-{
-    int hight = 5;
-    rectangle(hight);
-    cout << Sum(3, 4) << endl;
+
+void rectangle(int n, int k);
+
+int main() {
+    int n, k;
+    cout << "Height: ";
+    cin >> n;
+    cout << "Width: ";
+    cin >> k;
+    rectangle(n, k);
     return 0;
 }
-void rectangle()
-{
-    for (size_t i = 0; i < hight; i++)
-    {
 
+void rectangle(int n, int k) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < k; j++) {
+            cout << "*";
+        }
+        cout << endl;
     }
-}
-{
-    return x + y;
 }
